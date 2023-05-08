@@ -15,13 +15,18 @@
 }
 
 .formContainer {
+  background-image: url(https://wallpaperaccess.com/full/1959305.jpg);
   background-color: #a7bcff;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 
   .formWrapper {
+    
     background-color: White;
     padding: 20px 70px;
     border-radius: 10px;
@@ -86,6 +91,10 @@
 }
 
 .home {
+  background-image: url(https://wallpaperaccess.com/full/1959305.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-color: #a7bcff;
   color: #333333;
   font-size: 14px;
@@ -203,7 +212,7 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #5d5b8d;
+        // background-color: #5d5b8d;
         display: flex;
         align-items: center;
         justify-content: space-between;
